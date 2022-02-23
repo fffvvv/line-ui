@@ -6,7 +6,7 @@
       <h2>一个UI</h2>
       <p class="actions">
         <a href="https://github.com">GitHub</a>
-        <Button href="#/doc/" target="_blank">开始</Button>
+        <Button @click="jump('/#/Doc')">开始</Button>
       </p>
     </div>
   </div>
